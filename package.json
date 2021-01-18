@@ -1,0 +1,27 @@
+{
+  "name": "spamchecklol",
+  "version": "1.2.3",
+  "description": "bot that spams",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itz-hyperz/RandyBigSmellyBot.git"
+  },
+  "keywords": [
+    "Hyperz",
+    "spambot"
+  ],
+  "author": "Hyperz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itz-hyperz/spam-discord-bot/issues"
+  },
+  "homepage": "https://github.com/itz-hyperz/spam-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1",
+    "json": "^10.0.0"
+  }
+}
