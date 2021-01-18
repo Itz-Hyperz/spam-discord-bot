@@ -25,14 +25,22 @@ client.on('message', message => {
 });
 
 // Caleb's fun functions
+client.on('message', message => {
+  if(message.content.includes === 'anusO1')
+    calebiscool();
+});
 function wehaterandy() {
-  client.channels.get('747930604624150532').send('we all hate Randy');
+  client.channels.get('747930604624150532').send('we all hate Randy, he stole Hyperz bot code and requested a refund :(');
   client.users.get("Hyperz#0001").send("we hate randy message sent");
 }
+function calebiscool() {
+  message.channel.send("anusO1 is very cool");
+}
 
+// End of Caleb's fun functions
 client.login(token)
 
 /* 
 Built By: Hyperz#0001 
-And calebrwalk5#6969
+And anusO1#6969
 */
