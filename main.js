@@ -1,6 +1,6 @@
 /* 
 Built By: Hyperz#0001 
-And calebrwalk5#6969
+And anusO1#6969
 */
 
 const Discord = require ('discord.js');
