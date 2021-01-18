@@ -5,7 +5,7 @@
 __I coded this while I was in class lol, I did this code entirely through GitHub. Not sure how well it works lol, did it on a chromebook.__
 
 
-SETUP:
+# SETUP:
 
 - Open the config.json file
 
