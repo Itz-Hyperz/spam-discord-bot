@@ -1,3 +1,8 @@
+/* 
+Built By: Hyperz#0001 
+And calebrwalk5#6969
+*/
+
 const Discord = require ('discord.js');
 const config = require (./config.json);
 const client = new Discord.Client();
@@ -14,4 +19,20 @@ client.on('message', message => {
   } else console.log("Something went wrong, waiting for a new message.")
 }).catch(console.error);
 
+client.on('message', message => {
+  if(message.content.includes === 'randy')
+  wehaterandy();
+});
+
+// Caleb's fun functions
+function wehaterandy() {
+  client.channels.get('747930604624150532').send('we all hate Randy');
+  client.users.get("Hyperz#0001").send("we hate randy message sent");
+}
+
 client.login(token)
+
+/* 
+Built By: Hyperz#0001 
+And calebrwalk5#6969
+*/
